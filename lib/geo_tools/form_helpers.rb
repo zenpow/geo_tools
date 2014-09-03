@@ -41,7 +41,7 @@ module GeoTools
         :name     => "#{@object_name}[#{method}_hemisphere]" ))
     end
 
-    private
-
   end
 end
+
+ActionView::Helpers::FormBuilder.send :include, GeoTools::FormHelpers

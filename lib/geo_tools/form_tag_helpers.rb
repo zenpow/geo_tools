@@ -75,3 +75,5 @@ module GeoTools
 
   end
 end
+
+ActionView::Base.send :include, GeoTools::FormTagHelpers

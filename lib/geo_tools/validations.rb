@@ -34,3 +34,5 @@ module GeoTools
 
   end
 end
+
+ActiveRecord::Base.send :extend, GeoTools::Validations

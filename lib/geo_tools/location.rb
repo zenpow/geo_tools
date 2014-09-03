@@ -194,3 +194,5 @@ module GeoTools
     end
   end
 end
+
+ActiveRecord::Base.send :include, GeoTools::Location
