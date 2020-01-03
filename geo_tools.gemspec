@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
   s.summary     = 'Easierusing latitudes and longitudes on forms (and validation in model) for Rals 2.3.'
   s.description = s.summary
 
-  s.rubyforge_project = 'geo_tools'
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
